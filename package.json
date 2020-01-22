@@ -1,0 +1,44 @@
+{
+  "name": "@u4/prime",
+  "version": "0.0.1",
+  "description": "a simple isPrime, next and prev Prime number implementation in Js.",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf *.map *.ts.map *.js",
+    "prepare": "npm run clean && npm run build",
+    "build:watch": "tsc -p . --watch"
+  },
+  "author": "Uriel Chemouni <uchemouni@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "@types/tape": "^4.2.33",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "math",
+    "number",
+    "primality",
+    "prime",
+    "primes",
+    "nextprime"
+  ],
+  "bugs": "https://github.com/UrielCh/prime-js/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrielCh/prime-js.git"
+  },
+  "dependencies": {
+    "prime-number-boolean": "^1.1.3"
+  }
+}
