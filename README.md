@@ -1,8 +1,8 @@
 # @u4/prime
 
-> This small package contains simple prime number utilities with no extra stuff.
+[![NPM Version](https://img.shields.io/npm/v/@u4/prime.svg?style=flat)](https://www.npmjs.org/package/@u4/prime)
 
-version: [![NPM Version](https://img.shields.io/npm/v/@u4/prime.svg?style=flat)](https://www.npmjs.org/package/@u4/prime) *@u4/prime*
+> This small package contains simple prime number utilities with no extra stuff.
 
 ## why an other simple prime number tester / generator
 
