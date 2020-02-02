@@ -1,6 +1,6 @@
 {
   "name": "@u4/prime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple isPrime, next and prev Prime number implementation in Js.",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -38,8 +38,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UrielCh/prime-js.git"
-  },
-  "dependencies": {
-    "prime-number-boolean": "^1.1.3"
   }
 }
