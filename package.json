@@ -10,7 +10,7 @@
     "prepare": "npm run clean && npm run build",
     "build:watch": "tsc -p . --watch"
   },
-  "author": "Uriel Chemouni <uchemouni@gmail.com>",
+  "author": "Uriel Chemouni <uchemouni@gmail.com> (https://urielch.github.io/)",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^13.1.8",
